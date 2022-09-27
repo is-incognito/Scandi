@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin-top: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: ;
+}
+.header a{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #533738;
+}
