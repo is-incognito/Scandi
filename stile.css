@@ -5,26 +5,141 @@ a {
   margin: 0;
   padding: 0;
 }
-
+/*@media(max-width: 1023px){
+  .main_menu {flex-wrap: wrap;}
+}*/
 body {
   background: #EFE6E4;
-}
-
-.main_menu {
-margin-top: 36px;
-}
-.nav_list li {
-  display: inline-block;
-  list-style-type: none;
 
 }
-.page_header a{
+.main {
+  width: 1400px;
+  height: 715px;
+  background-image: url(img/fone1.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  
+  } 
+.page_header,
+.nav_list a,
+.phone {
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 20px;
 color: #533738;
+}
+
+.page_header {
+  padding-top: 36px;
+  padding-bottom: 90px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nav_list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+
+  }
+
+.main_menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  }
+
+h1 {
+margin-left: 185px;
+width: 530px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 62px;
+color: #533738;
+}
+
+h1+p {
+width: 490px;
+height: 90px;
+margin-left: 185px;
+margin-top: 24px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #533738;
+
+}
+
+.button {
+  width: 310px;
+  height: 74px;
+  background-color: #CC8B86;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color:  #533738;
+margin-left: 182px;
+margin-top: 21px;
+}
+
+.about {
+  margin-top: 65px;
+ }
+
+h2 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-transform: uppercase;
+color: #533738;
+}
+
+.about_center {
+display: flex;
+flex-wrap: wrap;
+margin-top: 40px;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about_text {
+  width: 528px;
+  height: 330px;
+  margin-left: 64px;
+  margin-right: 182px;
+display: block;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #533738;
+}
+
+.about_img {
+  margin-left: 182px;
+  width: 445px;
+  height: 465px;
+}
+
+.about_ul {
+  width: 1400px;
+  height: 273px;
 }
 
 .we_work_ul{
