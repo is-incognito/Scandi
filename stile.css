@@ -138,9 +138,25 @@ color: #533738;
 }
 
 .about_ul {
-  width: 1400px;
+   width: 1400px;
   height: 273px;
+  background: #8D7370;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+display: flex;
+justify-content:space-around ;
+align-items: center;
+list-style-type: none;
+margin-top: 21px;
 }
+
+.works
 
 .we_work_ul{
   display: flex;
