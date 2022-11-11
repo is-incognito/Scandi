@@ -138,10 +138,10 @@ color: #533738;
 }
 
 .about_ul {
-   width: 1400px;
-  height: 273px;
-  background: #8D7370;
-  font-family: 'Montserrat';
+width: 1400px;
+height: 273px;
+background: #8D7370;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 30px;
@@ -156,12 +156,118 @@ list-style-type: none;
 margin-top: 21px;
 }
 
-.works
+.works_img {
+  display: block;
+}
+
+.works {
+  width: 1200px;
+  height: 1099px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 65px;
+  text-align: center;
+  }
+
+.works_center {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.works_flat {
+  width: 488px;
+  height: 368px;
+  font-family: 'Montserrat';
+  padding-top: 86px;
+font-style: normal;
+color: #FFFFFF;
+background: linear-gradient(rgba(100, 72, 69, 0.8), rgba(100, 72, 69, 0.8)), url(img/Mask_Group.png);
+}
+
+.works_flat h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  }
+  
+  .works_flat p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 418px;
+    height: 150px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: left;
+  }
+  
+  .works a {
+    width: 294px;
+    height: 37px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #533738;
+  }
+    
+.team {
+background: #E2C4BA;
+width: 1399px;
+height: 998px;
+text-align: center;
+margin-top: 60px;
+padding-top: 50px;
+}
+
+.team p {
+display: block;
+width: 320px;
+text-align: left;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #533738;
+}
+
+.team_img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+  padding-left: 181px;
+  padding-right: 182px;
+  margin-top: 60px;
+}
+
+.we_work {
+  width: 1200px;
+  height: 300px;
+  margin-top: 50px;
+}
 
 .we_work_ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top: 40px;
+  }
+
+.we_work p {
+  width: 285px;
+  margin-top: 20px;
+  gap: 20px;
+  text-align: center;
+  display: block;
+}
+
+.we_work_center {
+  display: flex;
 }
 
 .we_work_ul li{
@@ -181,6 +287,5 @@ margin-top: 21px;
   font-size: 30px;
   line-height: 30px;
   color: #FFFFFF;
-
-  
+   
 }
